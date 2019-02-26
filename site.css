@@ -7,6 +7,7 @@ body {
 
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
+    
 }
 
 .titulo-principal {
@@ -29,7 +30,7 @@ p {
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing: border-box;
-	margin: 20px 40px;
+	margin: 40px 50px;
 }
 
 .navegacao-site {
@@ -54,6 +55,8 @@ main a {
 
 .citacao-bio, .navegacao-site, .rodape-pagina {
     padding: 20px;
+    box-sizing: border-box;
+    
 }
 
 .texto {
@@ -119,4 +122,32 @@ nav a {
 
 .linkedin {
 	background-image: url(linkedin.png);
+}
+
+main {
+    width: 80%;
+    float: left
+}
+
+img,
+aside {
+    width: 20%;
+    float: right;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.citacao-bio-fiat {
+    float: right;
+}
+
+.citacao-bio-petrobras {
+    float: left;
 }
